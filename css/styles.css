@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.chip-green {
+    margin: 0 8px !important;
+    background-color: #66bb6a !important;
+    color: white !important;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.footer-fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width:100%;
+}
+
+.index_nav {
+    background-color: rgba(0,0,0,0);
+    box-shadow: none !important;
+}
+
+.parallax-container {
+    height: 200px !important;
+}
+
+.parallax-container.large {
+    height: 600px !important;
+}
+
+.caption {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.center-div {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+}
+
+.logo-img {
+    width: 125px;
+    margin-top: 20px;
+}
+
+.btn-green {
+    background-color: #66bb6a !important;
+}
+
+.btn-red {
+    background-color: #F44336 !important;
+}
+
+.btn-green-text {
+    color: #66bb6a !important;
+}
+
+.account-input-focus {
+    margin-bottom: 0 !important;
+    box-shadow: 0 1px 0 0 #4caf50 !important;
+}
+
+.account-input-blur {
+    margin-bottom: 0 !important;
+    box-shadow: none !important;
+}
+
+.disabled-input-dark {
+    color: rgba(0, 0, 0, 0.5) !important;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.5) !important;
+}
+
+.disabled-label-dark {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.tabs-wrapper {
+    padding-top: 62px;
+}
+
+.blockquote-green {
+    border-left: 5px solid #4caf50 !important;
+}
+
+.table-of-contents a.active {
+    border-left: 2px solid #388e3c !important;
+}
+
+.table-of-contents a:hover:not(.active) {
+    border-left: 1px solid #66bb6a !important;
+}
+
+.side-nav .collapsible-body > ul:not(.collapsible) > li.active,
+.side-nav.fixed .collapsible-body > ul:not(.collapsible) > li.active {
+    background-color: #5e35b1 !important;
+}
+
+.pagination > li.active {
+    background-color: #5e35b1 !important;
+}
+
+strong {
+    font-weight: bold !important;
+}
